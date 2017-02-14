@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Tribute Page</title>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="/images/favicon.ico?" type="image/x-icon">  <!-- added to get favicon to load -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+  <script type="text/javascript" src="jquery.js"></script>
+</head>
+
+<body>
+  <div class="container-fluid body">
+  <h1>Anpanman</h1>
+  <h3 style="font-style: italic">Beloved hero of Japanese culture and cuisine</h3>
+  <div class="red-background">
+    <img class="img-responsive center-block oval" src="/images/1.jpg" alt="Anpanaman flying.">
+  </div>
+  <div>
+    <h3>Origin</h3>
+    <div class="row">
+      <div class="col-xs-7">
+        <p>Anpanman was born in the imagination of author and illustrator Takashi Yanase, during his time as a draftee in the Japanese army.<br><br>To help him endure the constant hunger pains that resulted from strict rationing, Takashi imagined himself eating anpan (あんぱん), a popular Japanese pastry filled with red bean paste. This coping mechanism would later inspire his most famous and endearing character, Anpanman.<br><br>Anpanman is a friend and hero to all, who helps those in need and shares pieces of his anpan head with others so that they won't suffer from the hunger pains that Takashi endured.</p>
+      </div>
+      <div class="col-xs-5 red-background">
+        <img class="center-block oval img-responsive-max" src="/images/2.jpg"  alt="Takashi Yanase with Anpanman and Baikinman">
+        <p class="caption-text">Takashi Yanase, creator of Anpanman</p>
+      </div>
+    </div>
+  </div>
+  <div>
+    <h3>Lessons in Morality</h3>
+    <div class="row">
+      <div class="col-xs-7">
+        <p>Primarily geared towards preschool-aged children, Anpanman imparts a number of important concepts including:<br></p>
+        <ul>
+          <li>Manners, greetings and other social skills</li>
+  				<li>Morality lessons that focus on the outcomes of different behaviors and attitudes</li>
+	  			<li>Self-sacrifice for the greater good</li>
+		  		<li>The benefits of a strong work ethic and persistence</li>
+			  	<li>The value of craftsmanship and the benefits of developing a skill</li>
+  				<li>The importance of team work</li>
+	  			<li>Individuality, in a world where almost every character is strikingly unique in appearance and personality</li>
+  				<li>Good versus evil, while demonstrating the many different aspects of evil</li>
+	  		</ul>
+      </div>
+      <div class="col-xs-5 red-background">
+        <img class="center-block oval img-responsive-max" src="/images/3.jpg"  alt="Evening greeting">
+        <p class="caption-text">Greeting someone in the evening</p>
+      </div>
+    </div>
+  </div>
+  <div>
+    <h3>Lessons in Culture</h3>
+    <div class="row">
+      <div class="col-xs-7">
+        <p>Anpanman and his hundreds of friends also present traditional Japanese culture, including many of the different holidays, festivals and (of course) foods.<br><br>To help young viewers remember the universe of characters and the objects they represent, puns are frequently employed to help reinforce both the cultural norms and names.<br><br>For example - "<i>shouga</i>" (しょうが), the Japanese word for ginger, is introduced by a character who frequently has opportunities to say "<i>shou ga nai</i>" (しょうがない), which loosely translates as "<i>oh well...</i>" and is typically what someone might say when a situation goes badly or is unavoidable.</p>
+      </div>
+      <div class="col-xs-5 red-background">
+        <img class="center-block oval img-responsive-max" src="/images/4.jpg"  alt="Soreike! Anpanman characters">
+        <p class="caption-text">Anpanman and some of his friends</p>
+      </div>
+    </div>
+  </div>
+  <div>
+    <h3>Lessons in Language</h3>
+    <div class="row">
+      <div class="col-xs-7">
+        <p>Finally, Anpanaman helps introduce the written Japanese language, through frequent usage of the characters that make up the first Japanese phonetic alphabet, hiragana.<br><br>Songs with subtitles are frequently employed to help children associate the sounds they hear with the symbols.<br><br><i>To give you an idea of what children must learn, please see the <b>Hiragana-Romaji Table</b> listed below.</i></p>
+      </div>
+      <div class="col-xs-5 red-background">
+        <img class="center-block oval img-responsive-max" src="/images/5.jpg"  alt="Anpanman theme song">
+        <p class="caption-text">Anpanman theme song</p>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div>
+    <h3>Hiragana-Romaji Table</h3>
+    <div class="red-background">
+      <table id="hiragana">
+        <tr id="row1">
+          <td><button class="odd" id="char01">あ</button></td>
+          <td><button class="odd" id="char02">い</button></td>
+          <td><button class="odd" id="char03">う</button></td>
+          <td><button class="odd" id="char04">え</button></td>
+          <td><button class="odd" id="char05">お</button></td>
+        </tr>
+        <tr id="row2">
+          <td><button class="even" id="char06">か</button></td>
+          <td><button class="even" id="char07">き</button></td>
+          <td><button class="even" id="char08">く</button></td>
+          <td><button class="even" id="char09">け</button></td>
+          <td><button class="even" id="char10">こ</button></td>
+        </tr>
+        <tr id="row3">
+          <td><button class="odd" id="char11">さ</button></td>
+          <td><button class="odd" id="char12">し</button></td>
+          <td><button class="odd" id="char13">す</button></td>
+          <td><button class="odd" id="char14">せ</button></td>
+          <td><button class="odd" id="char15">そ</button></td>
+        </tr>
+        <tr id="row4">
+          <td><button class="even" id="char16">た</button></td>
+          <td><button class="even" id="char17">ち</button></td>
+          <td><button class="even" id="char18">つ</button></td>
+          <td><button class="even" id="char19">て</button></td>
+          <td><button class="even" id="char20">と</button></td>
+        </tr>
+        <tr id="row5">
+          <td><button class="odd" id="char21">な</button></td>
+          <td><button class="odd" id="char22">に</button></td>
+          <td><button class="odd" id="char23">ぬ</button></td>
+          <td><button class="odd" id="char24">ね</button></td>
+          <td><button class="odd" id="char25">の</button></td>
+        </tr>
+        <tr id="row6">
+          <td><button class="even" id="char26">は</button></td>
+          <td><button class="even" id="char27">ひ</button></td>
+          <td><button class="even" id="char28">ふ</button></td>
+          <td><button class="even" id="char29">へ</button></td>
+          <td><button class="even" id="char30">ほ</button></td>
+        </tr>
+        <tr id="row7">
+          <td><button class="odd" id="char31">ま</button></td>
+          <td><button class="odd" id="char32">み</button></td>
+          <td><button class="odd" id="char33">む</button></td>
+          <td><button class="odd" id="char34">め</button></td>
+          <td><button class="odd" id="char35">も</button></td>
+        </tr>
+        <tr id="row8">
+          <td><button class="even" id="char36">や</button></td>
+          <td><button class="even" id="char37"></button></td>
+          <td><button class="even" id="char38">ゆ</button></td>
+          <td><button class="even" id="char39"></button></td>
+          <td><button class="even" id="char40">よ</button></td>
+        </tr>
+        <tr id="row9">
+          <td><button class="odd" id="char41">ら</button></td>
+          <td><button class="odd" id="char42">り</button></td>
+          <td><button class="odd" id="char43">る</button></td>
+          <td><button class="odd" id="char44">れ</button></td>
+          <td><button class="odd" id="char45">ろ</button></td>
+        </tr>
+        <tr id="row10">
+          <td><button class="even" id="char46">わ</button></td>
+          <td><button class="even" id="char47"></button></td>
+          <td><button class="even" id="char48">を</button></td>
+          <td><button class="even" id="char49"></button></td>
+          <td><button class="even" id="char50">ん</button></td>
+        </tr>
+      </table>
+      <p class="caption-text">Click on a character to switch between hiragana and romaji.</p>
+    </div>
+  </div>
+  <br>
+</div>
+<div>
+  <div class="yellow-background">
+    <h3 style="text-align: left">“No matter what country you are from, no matter where you stand, offering food to those who are hungry is a good deed. It is justice in the most absolute sense.”</h3>
+    <h5 style="text-align: right">- Takashi Yanase</h5>
+  </div>
+</div>
+<div>
+  <div class="yellow-background">
+  <h4>If you would like to learn more about Anpanman and his friends, please see this <a href="http://www.awgosh.com/anpanmanchara.html">Anpanman Characters</a> page.<br><br>You might enjoy Anpanman's official website (Japanese): <a href="http://www.anpanman.jp">アンパンマンポータルサイト</a></h4>
+  </div>
+</div>
+<div>
+  <p style="text-align: center"><br>Written and coded by <a href="https://www.linkedin.com/in/johnverbosky">John C. Verbosky</a>.</p>
+</div>
+</body>
+</html>
