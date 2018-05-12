@@ -1,0 +1,2 @@
+        <img class="center-block oval img-responsive-max" src="https://images-na.ssl-images-amazon.com/images/I/91%2BV5bb%2BTPL.jpg"  alt="Anpanman hiragana table">
+        <p class="caption-text">Anpanman hiragana table</p>
